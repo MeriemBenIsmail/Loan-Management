@@ -66,7 +66,7 @@ const LoanApplication = () => {
           role="alert"
           style={{ marginRight: "50px" }}
         >
-          This is a success alert—check it out!
+          The loan application is sent successfully !
         </div>
       )}
       <div className="formContainerLoan">
@@ -101,11 +101,11 @@ const LoanApplication = () => {
             />
           </div>
           <div class="form-group">
-            <label>Adress</label>
+            <label>Address</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Enter Adress"
+              placeholder="Enter Address"
               onChange={(e) => setAddress(e.target.value)}
             />
           </div>
